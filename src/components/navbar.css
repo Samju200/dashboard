@@ -1,0 +1,33 @@
+.navbar {
+  background-color: #fff;
+  border-bottom-left-radius: 16px;
+  margin-top: 0;
+}
+.navbar > ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 80px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+}
+.avatar > p {
+  margin-left: 5px;
+}
+.navbar_icon {
+  color: #364a63 !important;
+}
+
+.navbar > ul > li {
+  margin-left: 10px;
+  color: #364a63 !important;
+}
+@media screen and (max-width: 900px) {
+  .navbar > ul {
+    margin: 0;
+  }
+}

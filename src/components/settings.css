@@ -1,0 +1,138 @@
+.settings {
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #8d98aa;
+}
+.settings_button > button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-bottom: 1px solid #ec9890;
+  color: #ec9890;
+  margin-right: 10px;
+  font-size: 16px;
+  background-color: inherit;
+}
+.settings_button > .active {
+  color: #da2f20;
+  border-bottom: 1px solid #da2f20;
+}
+.settings_form {
+  margin-top: 20px;
+  width: 90%;
+}
+.settings_form > form > h4 {
+  color: #4c535f;
+}
+
+.settings_file {
+  margin-left: 0;
+  width: 150px;
+  padding: 2rem;
+  background: inherit;
+  border-radius: 25px;
+}
+.file-upload {
+  text-align: center;
+  border: 3px dashed #4c535f;
+  padding: 1.5rem;
+  position: relative;
+  cursor: pointer;
+}
+.file-upload h3 {
+  font-size: 0.87rem;
+  margin-top: 10px;
+  color: #4c535f;
+}
+.file-upload > img {
+  width: 60px;
+}
+.file-upload input {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.settings_input {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  align-items: center;
+}
+.settings_input > div > input {
+  width: 90%;
+  padding: 15px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+.settings_input > div {
+  display: flex;
+  flex-direction: column;
+}
+.settings_input > div > label,
+.settings_bio > label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #4c535f;
+}
+.settings_bio {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.settings_bio > textarea {
+  height: 80px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+.setting_button {
+  margin-top: 20px;
+  display: flex;
+  margin-bottom: 50px;
+}
+.setting_button > button {
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: inherit;
+}
+.setting_button > button:nth-child(1) {
+  background-color: #da2f20;
+  color: #fff;
+  border-radius: 8px;
+}
+.password_setting {
+  margin-top: 20px;
+  width: 90%;
+}
+.password_setting > h1 {
+  color: #353535;
+}
+.setting_password {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.setting_password > input {
+  width: 90%;
+  padding: 15px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+.setting_password > label {
+  color: #353535;
+}

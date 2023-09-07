@@ -1,0 +1,24 @@
+.progress{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    padding: 10px;
+    border-radius: 16px;
+    margin: 10px auto;
+   
+}
+
+.progress_right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 100%;
+
+}
+.progress_details{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+  
+}

@@ -1,0 +1,65 @@
+.shipment{
+    margin-top: 20px;
+    width: 90%;
+}
+
+.shipment_header{
+    display: flex;
+    align-items: center;
+}
+.shipment_header> h1{
+    margin-right: 20px;
+}
+
+.shipment_header >div>button{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    background-color: #F2E2E4;
+    margin-left: 10px;
+}
+.shipment_header>div{
+    background-color: #F2E2E4;  
+    border-radius: 16px;
+}
+.shipment_header>div>.active{
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.shipment_middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 16px;
+    margin-top: 20px;
+  
+}
+.shipment_input >input{
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.shipment_table{
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+.ship_shipment_table{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 15px;
+    place-items: center;
+    
+}
+.ship_shipment_table>li{
+    color: #242323;
+}
+.completed > .ship_shipment_table>li:nth-child(4){
+    color: #0AB239;
+}
+.transit>.ship_shipment_table>li:nth-child(4){
+    color: #FFB648;
+}
